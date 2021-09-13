@@ -12,6 +12,6 @@ fetch(
     document.querySelector(
       ".icon"
     ).innerHTML = `<img src="http://openweathermap.org/img/wn/${data.weather[0]["icon"]}@2x.png">`;
-
-    // http://openweathermap.org/img/wn/04n@2x.png
   });
+
+// http://openweathermap.org/img/wn/04n@2x.png

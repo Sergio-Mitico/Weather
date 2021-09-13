@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0px;
+}
+
+.head {
+  width: 100%;
+  height: auto;
+  background-color: rgb(51, 144, 219);
+  padding-bottom: 50px;
+}
+
+h1 {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  color: azure;
+  font-size: 55px;
+}
+
+.card {
+  display: inline-block;
+  font-family: serif;
+  text-align: center;
+  width: 200px;
+  height: 180px;
+  margin: 50px 5px;
+}
+
+.card:hover {
+  box-shadow: 0 0 1px black;
+}
+
+.city-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: #0097b9;
+  color: white;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 20px;
+  font-size: 15px;
+  background-color: #044664;
+  color: white;
+}
+
+.temperature {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(180, 220, 230);
+  margin-top: -19px;
+}
+
+.thm {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 15px;
+  background-color: #0097b9;
+  color: white;
+}
+
+.icon {
+  width: 200px;
+  height: 94px;
+  background-color: rgb(178, 215, 245);
+  margin: 0 auto 19px;
+}
+
+.box {
+  width: 50px;
+  font-size: 21px;
+  background-color: azure;
+}
+
+.temperature::after {
+  content: "°";
+}
